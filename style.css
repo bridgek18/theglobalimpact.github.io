@@ -1,0 +1,63 @@
+.lw { font-size: 60px; }
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.active {
+    background-color: gray;
+    color: white;}
+.prob {
+  color: white;
+  width:625px;
+  height:250px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  font-size: 250%;
+  background-color: navy; 
+} 
+.sol {
+  color:  white;
+  width:625px;
+  height:250px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  font-size: 250%;
+  background-color: purple; 
+} 
+.game {
+  color: white;
+  width:625px;
+  height:250px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  font-size: 250%;
+  background-color: red; 
+} 
+.gallery {
+  color:  white;
+  width:625px;
+  height:250px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  font-size: 250%;
+  background-color: orange; 
+} 
