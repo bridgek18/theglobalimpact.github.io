@@ -1,0 +1,52 @@
+.lw { font-size: 60px; }
+.topnav {
+    background-color: #333;
+  overflow: hidden;
+  width: 1250;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: white;
+}
+  
+.active {
+    background-color: gray;
+    color: white;}
+
+.gametitle {
+  color:  red;
+  text-align: center;
+  font-size: 250%;
+}
+
+.game{
+    display: block;
+    margin: auto;  
+    padding-top: 20px;
+}
+
+.impt {
+font-style: oblique;;
+}
+
+.canvas {
+   width: 800;
+  position: absolute;
+  text-align: center;
+  height: 400;
+}
+
+.here {
+ color: green ; 
+}
+
