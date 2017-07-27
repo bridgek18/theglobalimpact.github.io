@@ -1,0 +1,70 @@
+.bulb{
+    display: block;
+    margin: auto;  
+}
+h1.probtitle{
+  color:  purple;
+  text-align: center;
+  font-size: 250%;
+
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #b2aba4;
+    color: white;
+}
+  
+.active {
+    background-color: gray;
+    color: white;}
+
+
+
+.accordion {
+    background-color: #c6c6c5;
+    color: purple;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 120%;
+    font-weight: bold;
+    border: none;
+    transition: 0.4s;
+}
+
+.active, button.accordion:hover {
+    background-color: #a496b4;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+button.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion.active:after {
+    content: "\2796"; 
+}
