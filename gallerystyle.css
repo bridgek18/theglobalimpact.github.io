@@ -18,6 +18,8 @@ h1.gallery{
 .topnav {
     background-color: #333;
     overflow: hidden;
+    width:1350px;
+
 }
 .topnav a {
     float: left;
